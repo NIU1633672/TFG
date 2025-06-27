@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 
 app = Flask(__name__)
 BASE_URL = "https://attack.mitre.org"
-PAGE_URL = BASE_URL + "/versions/v16/resources/attack-data-and-tools/#excel-attack"
+PAGE_URL = BASE_URL + "/resources/attack-data-and-tools/#excel-attack"
 
 @app.route("/api/mitre-xlsx")
 def mitre_xlsx():
