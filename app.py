@@ -25,6 +25,5 @@ def mitre_xlsx():
 
     return send_file(tmp, as_attachment=True, download_name="enterprise-attack-latest.xlsx", mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
 
-# 🔽 ESTA LÍNEA ES FUNDAMENTAL
 if __name__ == "__main__":
     app.run(debug=True)
